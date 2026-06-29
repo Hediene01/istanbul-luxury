@@ -1,4 +1,4 @@
-# Bosphorus & Co. — Luxury Dining & Specialty Coffee Istanbul
+# Bosphorus & Co Luxury Dining & Specialty Coffee Istanbul
 
 A premium, cinematic website for an ultra-luxury restaurant and specialty coffee lounge overlooking the Bosphorus in Istanbul. Built with **React 19**, **Tailwind CSS 4**, **Framer Motion**, and **Next.js** architecture.
 
