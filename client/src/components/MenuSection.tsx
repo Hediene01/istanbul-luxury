@@ -12,7 +12,7 @@ const dishes = [
     image: "/manus-storage/dish1_886c0fda.jpg",
     name: "Ottoman Lamb Rack",
     description: "Slow-roasted rack of lamb with saffron jus, pomegranate reduction, and edible gold leaf. A tribute to the imperial kitchens of Topkapi.",
-    price: "₺680",
+    price: "₺1380",
     category: "Signature Main",
   },
   {
@@ -20,7 +20,7 @@ const dishes = [
     image: "/manus-storage/dish2_a67ad00d.jpg",
     name: "Bosphorus Sea Bass",
     description: "Line-caught sea bass from the Bosphorus strait, served with lemon caviar, truffle foam, and Aegean herbs on white marble.",
-    price: "₺590",
+    price: "₺1590",
     category: "Seafood",
   },
   {
@@ -28,7 +28,7 @@ const dishes = [
     image: "/manus-storage/dish3_7ae3363f.jpg",
     name: "Imperial Baklava",
     description: "Forty layers of hand-stretched filo, Antep pistachios, rose-infused honey, and pistachio ice cream. A dessert of legend.",
-    price: "₺320",
+    price: "₺820",
     category: "Dessert",
   },
   {
@@ -36,7 +36,7 @@ const dishes = [
     image: "/manus-storage/dish4_3bd700e8.jpg",
     name: "Wagyu Tenderloin",
     description: "A5 Wagyu beef with Ottoman spice crust, truffle jus, roasted heritage vegetables, and gold leaf — the pinnacle of luxury.",
-    price: "₺980",
+    price: "₺2100",
     category: "Premium Cut",
   },
 ];

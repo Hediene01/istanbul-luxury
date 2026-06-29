@@ -12,7 +12,7 @@ const coffees = [
     image: "/manus-storage/coffee1_86c198af.jpg",
     name: "Ottoman Turkish Coffee",
     description: "Prepared in a traditional copper cezve, our signature blend is roasted to perfection with cardamom and served with lokum.",
-    price: "₺120",
+    price: "₺250",
     origin: "Yemeni Blend",
   },
   {
@@ -20,7 +20,7 @@ const coffees = [
     image: "/manus-storage/coffee2_69ed8553.jpg",
     name: "Signature Pistachio Latte",
     description: "House-made pistachio cream, single-origin espresso, and oat milk over ice. A taste of Istanbul in every sip.",
-    price: "₺180",
+    price: "₺450",
     origin: "Ethiopia Yirgacheffe",
   },
   {
@@ -28,7 +28,7 @@ const coffees = [
     image: "/manus-storage/coffee3_0e39907e.jpg",
     name: "Bosphorus V60",
     description: "A slow pour-over ritual with single-origin beans, revealing floral and citrus notes that evoke the Aegean coast.",
-    price: "₺160",
+    price: "₺260",
     origin: "Kenya AA",
   },
   {
@@ -36,7 +36,7 @@ const coffees = [
     image: "/manus-storage/coffee4_21447087.jpg",
     name: "Rose Garden Latte",
     description: "Velvety espresso with rose water, dried petals, and silky steamed milk. A floral ode to Ottoman gardens.",
-    price: "₺150",
+    price: "₺350",
     origin: "Colombia Huila",
   },
 ];
