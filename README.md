@@ -2,7 +2,7 @@
 
 A premium, cinematic website for an ultra-luxury restaurant and specialty coffee lounge overlooking the Bosphorus in Istanbul. Built with **React 19**, **Tailwind CSS 4**, **Framer Motion**, and **Next.js** architecture.
 
-🌐 **Live Site:** https://luxdining-cw2vijbt.manus.space
+
 
 ---
 
