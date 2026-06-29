@@ -1,25 +1,41 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+/* ============================================================
+   HOME PAGE — Bosphorus & Co.
+   Design: Ottoman Noir Doré — Cinematic Luxury
+   ============================================================ */
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import MenuSection from "@/components/MenuSection";
+import CoffeeSection from "@/components/CoffeeSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import GallerySection from "@/components/GallerySection";
+import AmbientSection from "@/components/AmbientSection";
+import ReservationSection from "@/components/ReservationSection";
+import LocationSection from "@/components/LocationSection";
+import Footer from "@/components/Footer";
+import QuoteDivider from "@/components/QuoteDivider";
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
+const HERO_IMAGE = "/manus-storage/hero_restaurant_68d24ae3.jpg";
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
-
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="min-h-screen bg-[oklch(0.14_0.04_35)] text-[oklch(0.92_0.04_80)]">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <AmbientSection />
+      <MenuSection />
+      <QuoteDivider
+        quote="To dine here is to step into a living poem — where every flavour carries the memory of a thousand years."
+        author="Istanbul Gourmet Magazine"
+        bgImage={HERO_IMAGE}
+      />
+      <CoffeeSection />
+      <ExperienceSection />
+      <GallerySection />
+      <ReservationSection />
+      <LocationSection />
+      <Footer />
     </div>
   );
 }
