@@ -6,6 +6,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { toast } from "sonner";
+import { trackFormSubmission, trackReservationClick } from "@/lib/analytics";
 
 export default function ReservationSection() {
   const ref = useRef<HTMLDivElement>(null);
@@ -27,6 +28,7 @@ export default function ReservationSection() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    trackFormSubmission('reservation');
     setSubmitting(true);
     await new Promise((r) => setTimeout(r, 1200));
     setSubmitting(false);
