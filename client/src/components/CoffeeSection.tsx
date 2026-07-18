@@ -9,7 +9,7 @@ import { useRef } from "react";
 const coffees = [
   {
     id: 1,
-    image: "/manus-storage/coffee1_86c198af.jpg",
+    image: "/images/menu/ottoman-turkish-coffee.webp",
     name: "Ottoman Turkish Coffee",
     description: "Prepared in a traditional copper cezve, our signature blend is roasted to perfection with cardamom and served with lokum.",
     price: "₺250",
@@ -17,7 +17,7 @@ const coffees = [
   },
   {
     id: 2,
-    image: "/manus-storage/coffee2_69ed8553.jpg",
+    image: "/images/menu/signature-pistachio-latte.webp",
     name: "Signature Pistachio Latte",
     description: "House-made pistachio cream, single-origin espresso, and oat milk over ice. A taste of Istanbul in every sip.",
     price: "₺450",
@@ -25,7 +25,7 @@ const coffees = [
   },
   {
     id: 3,
-    image: "/manus-storage/coffee3_0e39907e.jpg",
+    image: "/images/menu/bosphorus-v60.webp",
     name: "Bosphorus V60",
     description: "A slow pour-over ritual with single-origin beans, revealing floral and citrus notes that evoke the Aegean coast.",
     price: "₺260",
@@ -33,7 +33,7 @@ const coffees = [
   },
   {
     id: 4,
-    image: "/manus-storage/coffee4_21447087.jpg",
+    image: "/images/menu/rose-garden-latte.webp",
     name: "Rose Garden Latte",
     description: "Velvety espresso with rose water, dried petals, and silky steamed milk. A floral ode to Ottoman gardens.",
     price: "₺350",

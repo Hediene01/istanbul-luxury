@@ -9,63 +9,72 @@ import { useRef } from "react";
 const galleryItems = [
   {
     id: 1,
-    image: "/manus-storage/hero_restaurant_68d24ae3.jpg",
+    image: "/images/bosphorus-dining.webp",
+    imagePosition: "center",
     title: "The Dining Room",
     colSpan: 2,
     rowSpan: 2,
   },
   {
     id: 2,
-    image: "/manus-storage/dish1_886c0fda.jpg",
+    image: "/images/menu/ottoman-lamb-rack.webp",
+    imagePosition: "center",
     title: "Ottoman Lamb Rack",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 3,
-    image: "/manus-storage/coffee1_86c198af.jpg",
+    image: "/images/menu/ottoman-turkish-coffee.webp",
+    imagePosition: "center",
     title: "Turkish Coffee",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 4,
-    image: "/manus-storage/dish3_7ae3363f.jpg",
+    image: "/images/menu/imperial-baklava.webp",
+    imagePosition: "center",
     title: "Imperial Baklava",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 5,
-    image: "/manus-storage/coffee2_69ed8553.jpg",
+    image: "/images/menu/signature-pistachio-latte.webp",
+    imagePosition: "center",
     title: "Pistachio Latte",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 6,
-    image: "/manus-storage/dish2_a67ad00d.jpg",
+    image: "/images/menu/bosphorus-sea-bass.webp",
+    imagePosition: "center",
     title: "Bosphorus Sea Bass",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 7,
-    image: "/manus-storage/coffee_hero_923a92a8.jpg",
+    image: "/images/menu/bosphorus-v60.webp",
+    imagePosition: "center",
     title: "Coffee Ceremony",
     colSpan: 2,
     rowSpan: 1,
   },
   {
     id: 8,
-    image: "/manus-storage/dish4_3bd700e8.jpg",
+    image: "/images/menu/wagyu-tenderloin.webp",
+    imagePosition: "center",
     title: "Wagyu Tenderloin",
     colSpan: 1,
     rowSpan: 1,
   },
   {
     id: 9,
-    image: "/manus-storage/coffee4_21447087.jpg",
+    image: "/images/menu/rose-garden-latte.webp",
+    imagePosition: "center",
     title: "Rose Garden Latte",
     colSpan: 1,
     rowSpan: 1,
@@ -115,6 +124,7 @@ export default function GallerySection() {
               <img
                 src={item.image}
                 alt={item.title}
+                style={{ objectPosition: item.imagePosition }}
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
               />
 

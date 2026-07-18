@@ -9,7 +9,7 @@ import { useRef } from "react";
 const dishes = [
   {
     id: 1,
-    image: "/manus-storage/dish1_886c0fda.jpg",
+    image: "/images/menu/ottoman-lamb-rack.webp",
     name: "Ottoman Lamb Rack",
     description: "Slow-roasted rack of lamb with saffron jus, pomegranate reduction, and edible gold leaf. A tribute to the imperial kitchens of Topkapi.",
     price: "₺1380",
@@ -17,7 +17,7 @@ const dishes = [
   },
   {
     id: 2,
-    image: "/manus-storage/dish2_a67ad00d.jpg",
+    image: "/images/menu/bosphorus-sea-bass.webp",
     name: "Bosphorus Sea Bass",
     description: "Line-caught sea bass from the Bosphorus strait, served with lemon caviar, truffle foam, and Aegean herbs on white marble.",
     price: "₺1590",
@@ -25,7 +25,7 @@ const dishes = [
   },
   {
     id: 3,
-    image: "/manus-storage/dish3_7ae3363f.jpg",
+    image: "/images/menu/imperial-baklava.webp",
     name: "Imperial Baklava",
     description: "Forty layers of hand-stretched filo, Antep pistachios, rose-infused honey, and pistachio ice cream. A dessert of legend.",
     price: "₺820",
@@ -33,11 +33,43 @@ const dishes = [
   },
   {
     id: 4,
-    image: "/manus-storage/dish4_3bd700e8.jpg",
+    image: "/images/menu/wagyu-tenderloin.webp",
     name: "Wagyu Tenderloin",
     description: "A5 Wagyu beef with Ottoman spice crust, truffle jus, roasted heritage vegetables, and gold leaf — the pinnacle of luxury.",
     price: "₺2100",
     category: "Premium Cut",
+  },
+  {
+    id: 5,
+    image: "/images/menu/black-truffle-manti.webp",
+    name: "Black Truffle Manti",
+    description: "Silken Turkish dumplings with black truffle, aged kaymak, and a delicate brown-butter emulsion.",
+    price: "₺980",
+    category: "Ottoman Pasta",
+  },
+  {
+    id: 6,
+    image: "/images/menu/charred-aegean-octopus.webp",
+    name: "Charred Aegean Octopus",
+    description: "Tender grilled octopus with smoked potato cream, pepper reduction, and young Mediterranean herbs.",
+    price: "₺1450",
+    category: "From the Sea",
+  },
+  {
+    id: 7,
+    image: "/images/menu/saffron-seafood-risotto.webp",
+    name: "Saffron Seafood Risotto",
+    description: "Saffron rice with prawns, mussels, calamari, and a bright preserved-lemon finish.",
+    price: "₺1650",
+    category: "Chef's Selection",
+  },
+  {
+    id: 8,
+    image: "/images/menu/pomegranate-duck-breast.webp",
+    name: "Pomegranate Duck Breast",
+    description: "Rosy duck breast glazed with pomegranate molasses, seasonal greens, and Ottoman spices.",
+    price: "₺1780",
+    category: "House Signature",
   },
 ];
 

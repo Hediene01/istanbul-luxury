@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
-const COFFEE_IMAGE = "/manus-storage/coffee_hero_923a92a8.jpg";
+const COFFEE_IMAGE = "/images/coffee-collection.webp";
 
 const stats = [
   { value: "2019", label: "Founded" },

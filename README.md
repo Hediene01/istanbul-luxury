@@ -2,6 +2,12 @@
 
 A premium, cinematic website for an ultra-luxury restaurant and specialty coffee lounge overlooking the Bosphorus in Istanbul. Built with **React 19**, **Tailwind CSS 4**, **Framer Motion**, and **Next.js** architecture.
 
+## Live Website
+
+**Production:** [https://istanbul-luxury-live.vercel.app](https://istanbul-luxury-live.vercel.app)
+
+Hosted on Vercel with automatic HTTPS and global CDN delivery.
+
 
 
 ---
@@ -32,7 +38,7 @@ A premium, cinematic website for an ultra-luxury restaurant and specialty coffee
 - Scroll-triggered stagger animations
 
 ### 🍽️ Menu Section
-- 4 signature dishes with high-quality images
+- 8 signature dishes with dedicated high-quality images
 - Hover depth effects and gold corner accents
 - Category badges and pricing
 - Responsive 2-column grid
@@ -297,10 +303,10 @@ Tailwind breakpoints are used throughout:
 
 ## 🌐 Deployment
 
-### Manus Platform
-The site is currently deployed on Manus with automatic SSL and CDN:
-- **URL:** https://luxdining-cw2vijbt.manus.space
-- **Auto-scaling:** Serverless deployment
+### Production — Vercel
+The live production site is deployed on Vercel with automatic SSL and CDN delivery:
+- **URL:** https://istanbul-luxury-live.vercel.app
+- **Status:** Live and verified
 - **SSL:** Automatic certificate management
 
 ### Deploy to Other Platforms
