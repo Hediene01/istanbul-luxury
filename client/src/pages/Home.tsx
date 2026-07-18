@@ -15,7 +15,7 @@ import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
 import QuoteDivider from "@/components/QuoteDivider";
 
-const HERO_IMAGE = "/manus-storage/hero_restaurant_68d24ae3.jpg";
+const HERO_IMAGE = "/images/bosphorus-dining.webp";
 
 export default function Home() {
   return (

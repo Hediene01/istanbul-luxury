@@ -7,7 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { ChevronDown } from "lucide-react";
 
-const HERO_IMAGE = "/manus-storage/hero_restaurant_68d24ae3.jpg";
+const HERO_IMAGE = "/images/bosphorus-dining.webp";
 
 export default function HeroSection() {
   const ref = useRef<HTMLDivElement>(null);
